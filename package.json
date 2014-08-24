@@ -8,6 +8,9 @@
         "type": "git",
         "url": "https://github.com/tachyon1337/elliptical-http.git"
     },
+    "dependencies":{
+        "elliptical-crypto":"git+https://github.com/tachyon1337/elliptical-crypto.git"
+    },
     "devDependencies": {
         "gulp": "^3.6.0",
         "gulp-util": "^2.2.14",
