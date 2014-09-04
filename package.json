@@ -1,37 +1,23 @@
 {
-  "name": "elliptical-http",
-  "description": "Elliptical Http Library",
-  "version": "1.0.0",
-  "author": {
-    "name": "S. Francis"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tachyon1337/elliptical-http.git"
-  },
-  "dependencies": {
-    "elliptical-crypto": "git+https://github.com/tachyon1337/elliptical-crypto.git"
-  },
-  "devDependencies": {
-    "gulp": "^3.6.0",
-    "gulp-util": "^2.2.14",
-    "gulp-concat": "^2.2.0",
-    "gulp-tap": "^0.1.1",
-    "fs-extra": "^0.8.1",
-    "gulp-uglify": "^0.2.1",
-    "merge-stream": "^0.1.5"
-  },
-  "readme": "# Elliptical Http\n\nElliptical Http Library\n\n",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/tachyon1337/elliptical-http/issues"
-  },
-  "homepage": "https://github.com/tachyon1337/elliptical-http",
-  "_id": "elliptical-http@1.0.0",
-  "dist": {
-    "shasum": "1686f50da75bd7779ec9f0d94147595ee70e3a01"
-  },
-  "_resolved": "git+https://github.com/tachyon1337/elliptical-http.git#3b50225e6763eeb05a274dcb99dd73f37797b46c",
-  "_from": "elliptical-http@git+https://github.com/tachyon1337/elliptical-http.git"
+    "name": "elliptical-http",
+    "description": "Elliptical Http Library",
+    "version": "1.0.0",
+    "author": "S. Francis",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tachyon1337/elliptical-http.git"
+    },
+    "dependencies":{
+        "elliptical-crypto":"git+https://github.com/tachyon1337/elliptical-crypto.git"
+    },
+    "devDependencies": {
+        "gulp": "^3.6.0",
+        "gulp-util": "^2.2.14",
+        "gulp-concat": "^2.2.0",
+        "gulp-tap": "^0.1.1",
+        "fs-extra": "^0.8.1",
+        "gulp-uglify": "^0.2.1",
+        "merge-stream": "^0.1.5"
+    }
 }
