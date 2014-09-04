@@ -1,7 +1,6 @@
 [
 
     "./lib/browser.js",
-    "./lib/node.js",
     "./lib/http.js"
 
 ]
