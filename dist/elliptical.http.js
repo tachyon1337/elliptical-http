@@ -117,13 +117,11 @@
         base64:crypto.base64,
 
         encodeSessionToken: function(token){
-            var authorization = 'Session ' + token;
-            return authorization;
+            return 'Session ' + token;
         },
 
         encodeOAuthToken: function(token){
-            var authorization = 'OAuth ' + token;
-            return authorization;
+            return 'OAuth ' + token;
         }
 
 

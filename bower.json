@@ -1,0 +1,27 @@
+{
+  "name": "elliptical-http",
+  "description": "Elliptical Http Library",
+  "version": "1.0.2",
+  "main": "dist/elliptical.http.js",
+  "authors": [
+    "S. Francis"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "http",
+    "browser",
+    "node"
+  ],
+  "homepage": "https://github.com/tachyon1337/elliptical-http",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "elliptical-crypto": "~1.0.2"
+  }
+}
